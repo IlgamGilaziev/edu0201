@@ -1,0 +1,73 @@
+body{
+background: url('../img/coffee.jpg');
+}
+.container.rounded{
+ background: rgb(110,69,19,.5);
+}
+.coffee-btn-group{
+background: #BC8F8F;
+height:62px;
+color: Gold;
+font-size:2em;
+border-radius:30px 0 0 30px;
+font-weight: 600;
+border:1px solid Wheat;
+}
+.coffee-btn-group>span{
+vertical-align: top;
+}
+.coffee-btn{
+width:60px;
+height:60px;
+background: #5f1020;
+cursor:pointer;
+border:1px solid #AF5A5A;
+box-shadow: 1px 1px 3px black;
+display: inline-block;
+}
+.coffee-btn:hover{
+background: #420310;
+border:1px solid black;
+}
+.coffee-btn:active{
+background: red;
+box-shadow: inset 0 0 10px black;
+}
+#display{
+width:100%;
+height:150px;
+background: navy;
+color:white;
+border:5px groove DarkSlateGrey;
+}
+[src$='rub.png']:hover{
+filter: contrast(1.5);
+cursor:pointer;
+}
+[src$='rub.png']:hover{
+filter: contrast(0.5);
+}  
+[src$='rub.jpg']:hover{
+filter: contrast(1.5);
+cursor:pointer;        
+} 
+#change_box{
+background:#644c0f;
+width:95%;
+height:200px;
+border:4px solid #3c2c11;
+position:relative;
+}      
+[src$='rub.png']{
+width:60px;
+cursor:pointer;
+position:absolute;
+left:0;
+top:0;
+}
+#lock{
+width:100%;
+height:100vh;
+position:absolute;
+top:0;
+} 
